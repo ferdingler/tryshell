@@ -9,7 +9,7 @@ license = "Apache-2.0"
 crate-type = ["cdylib"]
 
 [dependencies]
-strands-shell = { git = "https://github.com/strands-agents/shell", rev = "1d1a0aae9cf04e524687d3ed582b727a4b397ce2" }
+strands-shell = { git = "https://github.com/strands-agents/shell", rev = "d4c57a7a6a6c86080024c8dbad49357c2d412a02" }
 tokio = { version = "1", features = ["rt"] }
 wit-bindgen = "0.63.0"
 
